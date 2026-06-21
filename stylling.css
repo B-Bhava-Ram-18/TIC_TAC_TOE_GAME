@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #548867;
+    text-align:center;
+}
+.container{
+    height: 70vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #b0413e;
+}
+#reset{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #353a35;
+    color: palevioletred;
+    border-radius: 1rem;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Property	            Purpose
+display: flex	    Turns an element into a flex container
+justify-content	    Aligns items horizontally (main axis)
+align-items	        Aligns items vertically (cross axis)
+flex-wrap:wrap	    Allows items to move to the next line
+gap	                Adds spacing between flex items
+vh                  % of current browser window the item should be shown
+vmin                % of current browsesr min(browser height,width) the                       should be shown
+*/
